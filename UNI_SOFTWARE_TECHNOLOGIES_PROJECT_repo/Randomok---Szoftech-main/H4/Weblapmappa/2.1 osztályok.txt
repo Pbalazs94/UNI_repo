@@ -1,0 +1,29 @@
+Főosztály
+képernyő:
+    felhasználói felület:
+        megnyomható
+    Megjelenítendő adat:
+        üzenetbuborék
+kommunikáció:
+    Adatküldő
+    Adatfodadó
+felhasználó:
+    pont
+Állapotinformációk (vonatból és személyzetből nyíl felé)
+Vonat:
+    Típus
+    fejlesztés
+Személyzet
+Útvonal(állapot információ felé nyíl)
+
+Esemény(nyíl utvonal)
+
+Bolt(megjelenítendő adat)
+
+Irányítás:
+    bemenet
+    mozgás
+    hely
+
+Felvehető:
+    hely
