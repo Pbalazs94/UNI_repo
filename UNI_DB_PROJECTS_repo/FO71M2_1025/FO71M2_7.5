@@ -1,0 +1,6 @@
+a, select befizetes.befizetes, befizetes.befizets/400;
+b, select megnevezes from tanfolyam, nev from resztvevo, sum(befizetes) from befizetes;
+c, select tanfolyam(megnevezes), count(tajszam) from resztvevo;
+d, select tanfolyam(megnevezes), count(tajszam) from resztvevo;
+e, select tanfolyam(megnevezes) where count(tajszam) from resztvevo <> 0;
+f, select tanfolyam(megnevezes) where max(count(tajszam)) from resztvevo;

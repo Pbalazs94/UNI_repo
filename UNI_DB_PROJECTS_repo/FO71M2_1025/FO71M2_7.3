@@ -1,0 +1,5 @@
+a, select termek.tkod, termek.nev where termek.kategoria <> 'X';
+b, select termek.nev, gyarto.nev;
+c, select gyarto.nev where termek.kategoria <> 'X';
+d, select count(tkod) from termekek where termek.ar > Y;
+e, select count(adoszam) from gyarto where termek.ar > Y;

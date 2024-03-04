@@ -1,0 +1,15 @@
+Select név from oktató ;
+Select oktató.név,tárgy.megnevezés from oktató inner join tárgy ;
+Select oktató.név,tárgy.megnevezés from oktató inner join tárgy where tárgy ='NULL' and tárgy='*' ;
+Select oktató.név,tárgy.megnevezés from oktató inner join tárgy where tanszék ='ÁIF' ;
+Select avg(kredit) from tárgy;
+Select count(név) from oktató where tanszék= 'ÁIF' ;
+Select tárgy.megnevezés from tárgy where max(tárgy.kredit) ;
+Select oktató.* from oktató inner join tárgy where tárgy ='NULL' ;
+Select hallgató.* from hallgató inner join  where tárgy= 'NULL' and félév = '4';
+Select hallgató.szül.d. from hallgató;
+Select count(oktató.név) from oktató where tanszék ='gépész';Select count(oktató.név) from oktató where tanszék ='infó';
+Select oktató.* from oktató inner join tárgy where count(tárgy) >2;
+Select oktató.név from oktató inner join tárgy where avg(tárgy.kredit)>tárgy.kredit;
+Select oktató.név from oktató inner join tárgy where max(oktató.tárgy);
+Select hallgató.név from hallgató inner join tárgy where count(tárgy) = 'MAX';

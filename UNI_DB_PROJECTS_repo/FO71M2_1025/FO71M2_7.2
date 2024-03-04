@@ -1,0 +1,7 @@
+a, select count(cim) from KÖNYV;
+b, select avg(ar) from KÖNYV;
+c, select min(ar) from KÖNYV;
+d, select count(cim) from KÖNYV where KÖNYV(isbn) <> 'AB';
+e, select max(ar) from KÖNYV where KÖNYV(isbn) <> 'AB';
+f, select KÖNYV(cim) where KÖNYV(ar) > avg(ar) from KÖNYV;
+g, select count(cim) from KÖNYV where KÖNYV(ar) > avg(ar) from KÖNYV;
