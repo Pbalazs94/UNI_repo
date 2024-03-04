@@ -1,0 +1,5 @@
+_pk == primary key , azaz elsődleges kulcs
+
+_fk == foreign key , azaz idegen kulcs
+
+Mivel a Dia programban nincs lehetőség aláhúzni a szöveget
