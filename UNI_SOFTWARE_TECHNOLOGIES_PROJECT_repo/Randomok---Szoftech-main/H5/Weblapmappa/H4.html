@@ -1,0 +1,2188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    
+  <meta charset="UTF-8">
+
+    
+  <title>Analízis modell</title>
+  <meta name="GENERATOR" content="OpenOffice.org 1.1.3  (Win32)">
+  
+  
+  <style>
+	<!--
+		@page { margin: 2.5cm }
+		P { margin-bottom: 0.21cm }
+		TD P { margin-bottom: 0.21cm }
+	-->
+	</style>
+</HEAD>
+<BODY LANG="hu-HU" TEXT="#000000" LINK="#0000ff" BGCOLOR="#ffffff" DIR="LTR">
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="left" lang="hu-HU"><font style="font-size: 22pt;" size="6">Csapatn&eacute;v: Randomok </font></p>
+
+<p style="margin-bottom: 0cm;" align="left"><font style="font-size: 22pt;" size="6">Feladat
+c&iacute;me: Vonat menedzselős jat&eacute;k</font></p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center" lang="hu-HU"><font style="font-size: 26pt;" size="6"><b><span lang="en-US">Analízis modell</span></b></font></p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+<p style="margin-bottom: 0cm;" align="center" lang="hu-HU"><font size="4">Gyakorlatvezető::</font></p>
+
+<p style="margin-bottom: 0cm;" align="center" lang="hu-HU"><font style="font-size: 22pt;" size="6">Mileff P&eacute;ter</font></p>
+
+<p style="margin-bottom: 0cm;" align="center"><br>
+</p>
+
+
+<p style="margin-bottom: 0cm;" align="left" lang="hu-HU"><font style="font-size: 16pt;" size="4">Csoport
+tagok:</font></p>
+
+<p style="margin-bottom: 0cm;" align="left"><br>
+</p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">Nagy Bence</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">FVIQLY</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">nbence0620@gmail.com</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Istv&aacute;n Kal&oacute;</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">T59MGG</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3"> - </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">D&aacute;niel Vitkolczi</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">XPGMCH</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">vitkolczi.daniel@gmail.com</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">Bence Varga</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">CKFEC9</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3"> - </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Petr&oacute; Bal&aacute;zs</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">FO71M2</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">petro.balazs94@gmail.com</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+<p style="margin-bottom: 0cm;" align="left"><br>
+</p>
+
+<p style="margin-bottom: 0cm; widows: 2; orphans: 2" align="RIGHT"><font size="4">2022.11.23</font></p>	
+			
+
+
+<TABLE WIDTH=578 CELLPADDING=4 CELLSPACING=1>
+	<COL WIDTH=106>
+	<COL WIDTH=62>
+	<COL WIDTH=262>
+	<COL WIDTH=110>
+	<THEAD>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western" ALIGN=CENTER><I><B>Dátum</B></I></P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western" ALIGN=CENTER><I><B>Verzió</B></I></P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western" ALIGN=CENTER><I><B>Leírás</B></I></P>
+			</TD>
+			<TD WIDTH=110 STYLE="border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western" ALIGN=CENTER><I><B>Szerző</B></I></P>
+			</TD>
+		</TR>
+	</THEAD>
+	<TBODY>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.1</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">a kezdetleges verzió elkészítése</P>
+			</TD>
+			<TD WIDTH=110 STYLE="border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">teljes csapat</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.2</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P STYLE="margin-bottom: 0.49cm">2. Kezdeti osztálydiagram</P>
+				<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">2.1
+				Osztálydiagram</P>
+				<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">2.2
+				Osztályok felsorolása</P>
+				<P STYLE="margin-top: 0.49cm">2.3. Alrendszerek</P>
+			</TD>
+			<TD WIDTH=110 STYLE="; border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">teljes csapat</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.3</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western" STYLE="margin-bottom: 0.49cm">3.2 Dinamikus
+				modell</P>
+				<P CLASS="western" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">
+				3.3 Funkcionális modell</P>
+				<P CLASS="western" STYLE="margin-top: 0.49cm">Feladat
+				koordinálása</P>
+			</TD>
+			<TD WIDTH=110 STYLE="; border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">teljes csapat</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.4</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western" STYLE="margin-bottom: 0.49cm">3.1.3
+				Bázisosztályok</P>
+				<P CLASS="western" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">
+				3.2 Dinamikus modell</P>
+				<P CLASS="western" STYLE="margin-top: 0.49cm">3.3Funkcionális
+				modell</P>
+			</TD>
+			<TD WIDTH=110 STYLE="; border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">teljes csapat</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.4</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P STYLE="margin-bottom: 0.49cm">3.4. Operációk azonosítása</P>
+				<P STYLE="margin-top: 0.49cm">3.5 Az analízis modell
+				osztálydiagramja.</P>
+			</TD>
+			<TD WIDTH=110 STYLE="; border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">teljes csapat</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.5</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">3, 3.1, 3.1.1, 3.1.2, 4,4.1.1, 4.1.2, 
+				</P>
+			</TD>
+			<TD WIDTH=110 STYLE="border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">teljes csapat</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.6</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">3.6 ,3.6.1,3.6.2</P>
+			</TD>
+			<TD WIDTH=110 STYLE="border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">teljes csapat</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.23</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.7</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">HTML SZERKESZTÉSE</P>
+			</TD>
+			<TD WIDTH=110 STYLE="border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">PETRÓ BALÁZS</P>
+			</TD>
+		</TR>
+		<TR VALIGN=TOP>
+			<TD WIDTH=106 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">2022.11.25</P>
+			</TD>
+			<TD WIDTH=62 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">0.8</P>
+			</TD>
+			<TD WIDTH=262 STYLE="border-top: 1.10pt double #000000; border-bottom: 1.10pt double #000000; border-left: 1.10pt double #000000; border-right: none; padding-top: 0.11cm; padding-bottom: 0.11cm; padding-left: 0.11cm; padding-right: 0cm">
+				<P CLASS="western">HTML PONTJAINAK JAVÍTÁSA/FRISSÍTÉSE</P>
+			</TD>
+			<TD WIDTH=110 STYLE="border: 1.10pt double #000000; padding: 0.11cm">
+				<P CLASS="western">PETRÓ BALÁZS</P>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+<P CLASS="western" STYLE="margin-top: 0.49cm; margin-bottom: 0.42cm; line-height: 100%">
+<BR><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<H4 CLASS="western">Tartalomjegyzék</H4>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+&nbsp;</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_1.Bevezetés">1. Bevezetés</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_2._Kezdeti_osztálydiagram">2.
+Kezdeti osztálydiagram</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_2.1_Osztálydiagram">2.1
+Osztálydiagram</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_2.2_Osztályok_felsorolása">2.2
+Osztályok felsorolása</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_2.3_Alrendszerek">2.3.
+Alrendszerek</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3._Megjelenítési_alrendszer">3.
+Az első alrendszer modellje</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.1_Statikus_modell">3.1 Statikus
+modell</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.1.1_Kapcsolatok_pontosítása">3.1.1
+Kapcsolatok pontosítása</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.1.1_Kapcsolatok_pontosítása">3.1.2
+Attribútumok azonosítása</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.1.3_Bázisosztályok:">3.1.3
+Bázisosztályok keresése</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.2.Dinamikus_modell:">3.2.
+Dinamikus modell</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.3_Funkcionális_modell">3.3.
+Funkcionális modell</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.4._Az_operációk">3.4. Operációk
+azonosítása</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.5_Az_analízis">3.5 Az analízis
+modell osztálydiagramja.</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.6.2._Második_osztály">3.6. Az
+analízis modell osztályainak listája.</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.6.2._Második_osztály">3.6.1
+Első osztály neve</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.6.2._Második_osztály">3.6.2.
+Második osztály neve.</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<FONT COLOR="#0000ff"><U><A HREF="#_3.6.2._Második_osztály">X.
+Mellékletek</A></U></FONT></P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+&nbsp;</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+&nbsp;</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<H1 CLASS="western"><A NAME="_1.Bevezet%C3%A9s"></A><FONT FACE="Times New Roman, serif">1.Bevezetés</FONT></H1>
+<P CLASS="western" STYLE="margin-bottom: 0.35cm"><BR><BR>
+</P>
+
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><b>Vonatos játékunk célja, hogy menedzsmenttel teljesítsünk küldetéseket adott pályákon.
+A felhasználó kedve szerint csinálhat egy vonat vállalkozást.</b></P>
+<br>
+<br>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%">Ennek
+a dokumentumnak az a célja, hogy a program működését modellezzük,
+magyarázatok, diagrammok segítségével szemléltessük, és a programmal
+kapcsolatos minden követelményt megfogalmazzunk.</P>
+
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%">Ahhoz,
+hogy a rendszert megfelelően modellezni tudjuk, a már eddig elkészült
+dokumentumokra (Vízió, SRS) is hivatkozhatunk. Összegezni kell az
+eddig leírtakat, pontosítani kell az egyes funkciókat, illetve
+részletezni kell a felhasználók és a rendszert
+karbantartók jogait, hozzáféréseit.</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%">A
+diagrammok segítségével megvilágosodnak az osztályok és alosztályok
+közötti kapcsolatok, és maga a program működése is.  Az a célunk,
+hogy egy teljesen működőképes modellt formáljunk, amely eleget tesz a
+célok megvalósításának. 
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<H1 CLASS="western"><A NAME="_2._Kezdeti_oszt%C3%A1lydiagram"></A><FONT FACE="Times New Roman, serif">2.
+Kezdeti osztálydiagram</FONT></H1>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%">Ebben
+a fázisban felveszünk a listára minden valószínűsíthető osztályt,
+amelyeket az eddig rendelkezésre álló dokumentációk (elsősorban az
+SRS) információi alapján a rendszerhez tartozónak gondolunk. </P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%; page-break-before: always">
+<BR>
+</P>
+<P LANG="" STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%">
+<br><br>
+<p><b>Külön az osztályok felsorolása  </b></p>
+
+<p><b>Külön az osztályok kapcsolatának bemutatása:/Külön az osztályok felsorolása külön szekciókban: </b></p>
+
+<IMG SRC="classes_fullscale.png" NAME="kép1" ALIGN=CENTER HSPACE=12 WIDTH=588 HEIGHT=480 BORDER=0><IMG SRC="fullscale_database.png" NAME="kép1" ALIGN=CENTER HSPACE=12 WIDTH=588 HEIGHT=480 BORDER=0><BR>
+
+
+</P>
+<br><br>
+<H1 CLASS="western" STYLE="page-break-before: always" ALIGN=LEFT><A NAME="_2.1_Oszt%C3%A1lydiagram"></A>
+<FONT FACE="Times New Roman, serif">2.1 Osztálydiagram</FONT></H1>
+
+
+<p><b>Some of the classes:</b></p>
+<p>
+GameController</p>
+<p>Display:
+    User_Interface:
+        Interactable</p>
+   <p> Show_data/
+        Popup_messages</p>
+<p>Communication:
+    /DataSend
+    /DataReceive</p>
+<p>Users:
+    Points</p>
+<p>Condition_information
+</p><p>Train:
+    Type
+    Upgrades</p>
+<p>Crew</p>
+<p>Path
+</p>
+<p>Events
+</p>
+<p>Shop</p>
+<p>Controls:
+    /Input
+    /Movement
+   / position
+</p>
+<p>Coordinates:
+    /x
+	/y</p>
+<H1 CLASS="western" STYLE="page-break-before: always"><A NAME="_2.2_Oszt%C3%A1lyok_felsorol%C3%A1sa"></A>
+2.2 Osztályok felsorolása<BR><BR><BR>
+</H1>
+
+	
+	<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>1) Game_Controller:
+    
+</B>Alrendszerkezelő</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>2) Display:
+</B>Mindent tartalmaz amit a képernyőn megjelenítünk ehhez
+   <li> a) felhasználói felület: Azon komponensek számára amiken keresztül a felhasználók bemenetet küldhetnek
+        megnyomható: Nagyrészt a gombokat soroljuk fel mivel a telefonos felületen nincsenek lenyomható billentyűzetek
+   </li> <li> b) Megjelenítendő adat: Minden informűció amit a gép szeretne küldeni a felhasználó felé.
+        üzenetbuborék: a megjelenítendő adat közlésének módja
+</li>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>3) Communication:
+</B>A játékosok egymással való kommunikációja
+   <ul>a) Adatküldő: A játékos által elküldött adat feldolgozásáért felelős</ul>
+    <ul>b) Adatfodadó: A játékoshoz érkező adat feldolgozásáért felelős</ul>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>4) User(s):
+</B>A felhasználó kezelésére fenntartott osztály
+    pont: A felhasználó pontozására szolgáló osztály
+</P>
+
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>5) Train_Condition_information:
+</B>A játékmeneten belüli állapotok kezelésére szolgáló osztály
+   <ul></ul>
+    <ul></ul>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>6) Train:
+</B>A vonat osztály a vonat adatainak kezelésére
+   <ul>a) Típus: a vonat típusára való kezeléshez osztály</ul>
+    <ul> b) fejlesztés: A vonat fejlesztéséhez szolgáló alrendszer</ul>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>7) Crew:
+</B>A vonat személyzeti részéhez szolgáló osztály
+  
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>8) Path:
+</B>A pályán lévő ót végigmenetére szolgáló útvonalat leíró osztály
+   <ul></ul>
+    <ul></ul>
+</P><P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>9) Events:
+</B>Minden alkalmazáson belüli bekövetkezési esemény osztálya
+ 
+</P><P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>10) Shop:
+</B>A vásárlás kezelésére szolgáló osztály
+  
+</P>
+
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>11) Controls:
+</B>A pályán belüli irányítás osztálya 
+   <ul>a) bemenet: haladási irány bemenete</ul>
+    <ul>  b) mozgás: haladási irány érétke</ul>
+	<ul> c) hely: haladás helyzetváltozásának osztálya</ul>
+</P>
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><B>12) Research:
+</B>Játék közben felvehető elemek osztálya
+    hely: A felvehető tárgyak helyére szolgáló osztály (Shop/Events)
+
+</P>
+
+<P STYLE="margin-top: 0.49cm; margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+<H1 CLASS="western" STYLE="page-break-before: always"><A NAME="_2.3_Alrendszerek"></A>
+2.3 Alrendszerek<BR>
+</H1>
+
+
+		
+
+
+<p><b>SCREEN</b></p>
+<p><b>menu</b></p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	<col width="70">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">singlepalyer</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">submenu</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">buttons</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">multiplayer</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">submenu</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3">buttons</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">options</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">(sok minden)</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">quit-->sure? ->Y/N </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">Logo</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">Sound/Music</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">Animations </font></p>
+		</td>
+	</tr>
+
+			 </tbody>
+</table>
+      <p><b>USER</b></p>
+<p><b>name</b></p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+      	<tr valign="top">
+		<td width="70">
+      <p align="left" lang="hu-HU"><font size="3">regist date</font></p>
+		</td>
+		<td width="70">
+      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">last visit date</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="70">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">save locations</font></p>
+		</td>
+		<td width="70">
+      
+ 
+      
+      <p align="left" lang="hu-HU"><font size="3">last save</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="70">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">locatio</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">date</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+            <p><b>SOUND</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">event</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">location</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+          <p><b>CONNECTION ESTABILISHER</b></p>
+<p><b>server</b></p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">players</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">ranks</font></p>
+		</td>
+		
+			<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">points</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+<p><b>TIMER</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">time</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">penalty</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+<p><b>EVENT HANDLER</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">pop up</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">location</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">sound</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">event</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">animation</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="120">
+		
+      <p align="left" lang="hu-HU"><font size="3">text</font></p>
+		</td>
+		<td width="120">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">border</font></p>
+		</td>
+		<td width="120">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">time stop/pause</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+ <p><b>INPUT</b></p>
+<p>type</p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">mouse movement</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">click</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">button press</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">keyboard interaction</font></p>
+		</td>
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">keyboard key press</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">button press/interaction with train</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">time</font></p>
+		</td>
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">elapsed time</font></p>
+		</td>
+		
+	</tr>
+  </tbody>
+</table>
+	<p><b>COORDINATES</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">X</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">Y</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+<p><b>SCREEN DISPLAY</b></p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">path</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">switch</font></p>
+		</td>
+			<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">animations</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+<p><b>ANIMATIONS</b></p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">timer</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">begin</font></p>
+		</td>
+			<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">end</font></p>
+		</td>
+	</tr>
+	
+  </tbody>
+</table>
+
+	
+<p>	location</p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">entity</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">location</font></p>
+		</td>
+			<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">type</font></p>
+		</td>
+	</tr>
+	
+  </tbody>
+</table>
+
+<p><b>GAMEPLAY</b></p>
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">fuel</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">amount</font></p>
+		</td>
+			
+	</tr>
+		
+  </tbody>
+</table>
+	<p>staions</p>
+	<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="70">
+	<col width="70">
+	
+	<tbody>
+	
+	<tr valign="top">
+		<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">start/end stations</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">refuel station</font></p>
+		</td>
+				<td width="70">
+		
+      <p align="left" lang="hu-HU"><font size="3">penaltys</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">timer</font></p>
+		</td>
+		<td width="70">
+      
+    
+      
+      <p align="left" lang="hu-HU"><font size="3">remaining time</font></p>
+		</td>
+	</tr>
+	
+  </tbody>
+</table>
+
+	
+<P CLASS="western" STYLE="margin-left: 0.64cm; margin-bottom: 0.35cm">
+<BR><BR>
+</P>
+<H1 CLASS="western"><A NAME="_3._Megjelen%C3%ADt%C3%A9si_alrendszer"></A>
+3. Megjelenítési alrendszer modellje</H1>
+<P CLASS="western" STYLE="margin-left: 0.64cm; margin-bottom: 0.35cm">
+<BR><BR>
+</P>
+<H1 CLASS="western"><A NAME="_3.1_Statikus_modell"></A>3.1 Statikus
+modell</H1>
+
+<IMG SRC="KO.png" NAME="kép2.3" ALIGN=LEFT  BORDER=0><BR>
+<P CLASS="western" STYLE="margin-left: 0.64cm; margin-bottom: 0.35cm">
+<BR><BR><BR><BR><BR><BR><BR><BR>
+</P>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<H1 CLASS="western"><A NAME="_3.1.1_Kapcsolatok_pontos%C3%ADt%C3%A1sa"></A>
+3.1.1 Kapcsolatok pontosítása</H1>
+
+<H1 CLASS="western">3.1.2 Attribútumok azonosítása</H1>
+<P CLASS="western" ALIGN=CENTER STYLE="margin-left: 0.64cm; margin-bottom: 0.35cm">
+
+<p><b>Player</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">Name</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">Type</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">Description</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Animations_IMGs</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">BUFFERED_IMAGE[][]</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3">The/This array contains the pictures of the animations </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">Moving</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">True if it moves, False if it is stationary</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">LVLDATA</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT[][]</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">This/The array contains the data of the level </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">X_DRAW_OFFSET</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">FLOAT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">The character's x coordinates</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Y_DRAW_OFFSET</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">FLOAT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">The character's y coordinates</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Moving_Speed</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">FLOAT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Contains the speed which the Train object moves</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+<p><b>ACHIEVEMENT</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">ACHIEVEMENT_ID</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3">Contains the id of the achievement </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">REWARD</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">True if the requirements for the reward are met , False if the requirements for the reward are not met</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+<p><b>Train</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Animation_ID</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3">Animation's ID </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">TRAIN_TYPE</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">Contains the type of the Train</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">FIRST_UPDATE</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">Starts off as true changes to false if there was an update </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">ACTIVE</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">TRUE IF ACTIVE, False if not</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+<p><b>GObject</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">doAnimation</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3"> True if animation needed , else false</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">ANIMATION_TICK</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">It gives the Animation's frames per second number</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">Animation_INDEX</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">Gives the animation's index back </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">X_DRAW_OFFSET</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">float</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">The character's x coordinates</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Y_DRAW_OFFSET</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">float</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">The character's y coordinates</font></p>
+		</td>
+	</tr>
+	
+      
+  </tbody>
+</table>
+
+
+<p><b>SKIN</b></p>
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">SKIN_TYPE</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3"> Gives the tpye of skin</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">First_Update</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">First it is true, then if it gets update false</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">SKIN_ID</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">Contains the Skin's ID </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">ACTIVE</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">True if it is ACTIVE, False if it is not ACTIVE</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">SKIN_PRICE</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Gives the Price of The Skin</font></p>
+		</td>
+	</tr>
+
+  </tbody>
+</table>
+
+
+
+
+<p><b>MAP</b></p>
+
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">MAP_TYPE</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3">It states the type of the map </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">MAP_UPDATE</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">It comes as True ,then if it changes it becomes false</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">MAP_ID</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">The Map's ID </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">ACTIVE</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">True if it is ACTIVE, False if it is not true</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">MAP_LVL</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Gives the maps Lvl attribute</font></p>
+		</td>
+	</tr>
+	
+   
+  </tbody>
+</table>
+
+
+
+<p><b>MENU</b></p>
+
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">BACKGROUND_IMG</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">BUFFERED_IMAGE</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3"> The Background</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">MMX</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">MENU'S X Coordinate on screen</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">MMY</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">MENU'S Y Coordinate on screen  </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">MMW</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">THE WIDTH OF THE MENU</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">MMH</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">THE HEIGHT OF THE MENU</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+
+
+<p><b>Setting</b></p>
+
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">BACKGROUND_IMG</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">BUFFERED_IMAGE</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3">THE BACKGROUND IMAGE </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">SMX</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">The setting menu's x coordinate on the screen</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">SMY</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">The setting menu's y coordinate on the screen </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">SMW</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">The Setting's width</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">SMH</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">The Setting's height</font></p>
+		</td>
+	</tr>
+  </tbody>
+</table>
+
+
+
+
+<p><b>GAME</b></p>
+
+
+<table border="1" cellpadding="4" cellspacing="3" width="90%">
+	<col width="118">
+	<col width="75">
+	<col width="264">
+	<tbody>
+    <tr valign="top">
+		<td width="118">
+      
+      <p align="left" lang="hu-HU"><font size="3">NAME</font></p>
+		</td>
+		<td width="75">
+
+      <p align="left" lang="hu-HU"><font size="3">TYPE</font></p>
+		</td>
+		<td width="264">
+			     
+      
+      <p align="left" lang="hu-HU"><font size="3">DESCRIPTION</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">GAME_THREAD</font></p>
+		</td>
+		<td width="75">
+			
+
+      <p align="left" lang="hu-HU"><font size="3">THREAD</font></p>
+		</td>
+		<td width="264">
+
+      <p align="left" lang="hu-HU"><font size="3">SETS HOW MANY THREAD WILL USE THE GAME </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">FPS_SET</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">INT</font></p>
+		</td>
+		<td width="264">
+      <p align="left" lang="hu-HU"><font size="3">SETS FPS FOR THE GAME</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+      <p align="left" lang="hu-HU"><font size="3">FPS_LIMIT</font></p>
+		</td>
+		<td width="75">
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">    
+      
+      <p align="left" lang="hu-HU"><font size="3">THIS IS A FUNCTION THAT CAN BE TURNED ON OR OFF, IFF THE USER DESIRES TO LIMIT THE FPS </font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">MENU</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">MENU</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">MENU OBJECT</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">GAME_OPTIONS</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">GAME_OPTIONS</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">OPTIONS OBJECT</font></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">SHOW_FPS_UPS</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">BOOLEAN</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">FUNCTION THAT ALLOWS TO SHOW THE FPS WINDOW OR CLOSE IT</font></p>
+		</td>
+	</tr>
+
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">CREDITS</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">CREDITS</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">CREDITS OBJECT</font></p>
+		</td>
+	</tr>
+
+	<tr valign="top">
+		<td width="118">
+			
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">Playing</font></p>
+		</td>
+		<td width="75">
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">PLAYING</font></p>
+		</td>
+		<td width="264">
+			      
+      
+      
+      <p align="left" lang="hu-HU"><font size="3">PLAYING OBJECT , that switches the users status to playing</font></p>
+		</td>
+	</tr>
+
+  </tbody>
+</table>
+
+<H1 CLASS="western"><A NAME="_3.1.3_B%C3%A1zisoszt%C3%A1lyok%3A"></A>3.1.3
+Bázisosztályok:<BR><BR><BR>
+</H1>
+
+<P CLASS="western" STYLE="margin-bottom: 0.35cm"><BR><BR>
+</P>
+<H1 CLASS="western" STYLE="page-break-before: always"><A NAME="_3.2.Dinamikus_modell%3A"></A>
+3.2.Dinamikus modell:<BR></H1>
+
+
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="DINAMIKUS.png" NAME="kép10.2" ALIGN=BOTTOM BORDER=0></P>
+
+
+
+
+<H1 CLASS="western"><A NAME="_3.3_Funkcion%C3%A1lis_modell"></A></H1>
+<H1 CLASS="western"></H1>
+
+
+<H1 CLASS="western">3.3 Funkcionális modell<BR>
+</H1>
+<P CLASS="western" STYLE="margin-bottom: 0.35cm">Főbb funkcionális
+folyamatok belépés, útvonal tervezése, állapotok ellenőrzése és
+kivitelezés.</P>
+
+<P CLASS="western" STYLE="margin-bottom: 0.35cm">Útvonal terv:</P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="fullscale_utvonal.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<br><br><br>
+<br><br><br>
+<p>Rá nagyítva egyes részeire</p>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.3A.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.3B.png" NAME="kép10.1" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.3C.png" NAME="kép10.2" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<P>Állapotok:</P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="fullscale_allapot.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<br><br><br>
+<br><br><br>
+<p>Rá nagyítva egyes részeire</p>
+
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.3D.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.3E.png" NAME="kép10.1" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<P>BOLT:</P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="fullscale_bolt.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<br><br><br>
+<br><br><br>
+<p>Rá nagyítva egyes részeire</p>
+
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="shieta.png" NAME="kép10.2" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="shietb.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="shietc.png" NAME="kép10.1" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+
+
+
+
+
+<H1 CLASS="western"><A NAME="_3.4._Az_oper%C3%A1ci%C3%B3k"></A> 3.4.
+Az operációk azonosítása<BR><BR><BR>
+</H1><H1 CLASS="western" STYLE="page-break-before: always"><A NAME="_3.5_Az_anal%C3%ADzis"></A>
+3.5 Az analízis modell osztálydiagramja<BR><BR><BR>
+</H1>
+
+
+
+<P CLASS="western" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm; line-height: 100%">
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5A.png" NAME="kép10.2" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5B.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5C.png" NAME="kép10.1" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5D.png" NAME="kép10.2" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5E.png" NAME="kép10.2" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5F.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5G.png" NAME="kép10.1" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5h.png" NAME="kép10.2" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5j.png" NAME="kép10.2" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="3.5k.png" NAME="kép10" ALIGN=BOTTOM WIDTH=500 HEIGHT=500 BORDER=0></P>
+
+<H1 CLASS="western"><A NAME="_3.6._Az_anal%C3%ADzis"></A>3.6.
+Az analízis modell osztályainak listája</H1>
+
+
+
+
+<h2>Az egész modell osztályainak felsorolása</h2>
+<P LANG="" CLASS="western" STYLE="margin-bottom: 0.35cm"><IMG SRC="33333.png" NAME="kép10" ALIGN=BOTTOM BORDER=0></P>
+<p>
+alrendszer:</p>
+<p>Display</p>
+<ul>	név: típus: leírás:
+	<ul>menu 		/Játék menüjének kezelése</ul>
+	<ul>button		/gombok kezelésére szolgáló osztály</ul>
+	<ul>submenu		/Megállítás, vásárlás, játékosbeállítások szolgálatára almenurész</ul>
+	<ul>options		/Minden lehető beállítás megtalálható ezen menupont alatt</ul>
+	<ul>kilépés /gomb 	/kilépés opciója</ul>
+	<ul>animáló /alrendszer  /Játékbeli animációk kezelése</ul></ul>
+ 		
+<p>User(s):</p>
+	<ul>név  típus  leírás</ul>
+	<ul>name /string /játékos neve</ul>
+	<ul>regist /date /dátum játékos regisztrálási dátuma</ul>
+	<ul>last visit /date /dátum játékos legutóljára belépési időpontja</ul>
+	<ul>save /locations /Mentett adat játékos legutóljára elmentett helye</ul>
+	
+<p>Sound:</p>
+	<ul>név: típus leírás</ul>
+	<ul>event /esemény /esemény amikor hangnak kell megjelennie</ul>
+	<ul>location /hely /helyszín ahol a hang megjelenik</ul>
+		
+<p>Connection Establisher:</p>
+	<ul>név: típus: leírás:
+	<ul>server 		/szerver ahol a kapcsolatot fenntartjuk</ul>
+	<ul>points /hely	/hely ahol a játékos jelenleg tartózkodik</ul>
+	<ul>players /player 	/játékosok akik csatlakoztak</ul>
+	<ul>ranks 			/Ki milyen rangot ért el eltárolása</ul></ul>
+
+<p>Timer:</p>
+	<ul>név: típus: leírás:</ul>
+	<ul>time: /int 	/idő ami rendelkezésre áll a játékban</ul>
+
+<p>Events:</p>
+	<ul>név: típus: leírás:</ul>
+	<ul>felugró ablak  	/a felugró ablakok kezelése</ul>
+	<ul>hely 		/hol jelenik meg az ablak</ul>
+	<ul>hang /hangfájl	/milyen hang jelenik meg a felugró ablakhoz</ul>
+	<ul>esemény /esemény /milyen esemény jelenik meg a felugró ablakhoz</ul>
+	<ul>animáció 	/animáció	/melyik animáció jelenik meg a felugró ablakhoz</ul>
+	<ul>szöveg 	/szöveg 		/szöveg az ablakhoz</ul>
+	
+<p>Input:</p>
+	<ul>név: típus leírás:</ul>
+	<ul>type 		/meghatározza a megjelenítési elem típusát</ul>
+	<ul>idő /date 	/meghatározza a megjelenített elem idejét amíg a képernyőn tartózkodik</ul>
+
+<p>Coordinates:</p>
+	<ul>név: típus: leírás:</ul>
+	<ul>X	/float	/x koordinátája a mozgásnál</ul>
+	<ul>Y	/float 	/y koordinátája a mozgásnál</ul>
+
+<p>Screen Display:</p>
+	<ul>név: típus: leírás:</ul>
+	<ul>út: 		/az út amelyet végig kell járni egy pályán</ul>
+	<ul>switch		/A képek közötti váltás jelzése</ul>
+
+<p>Animations:</p>
+	<ul>név: típus: leírás:</ul>
+	<ul>időzítő  /date 	/időzítő, hogy mikor kezdődjön és mikor végződjön az adott animáció</ul>
+	<ul>entitás  		/Definiálja mit jelenítünk meg.</ul>
+
+<p>Game_Controller</p>
+	<ul>név: Típus: leírás:</ul>
+	<ul>üzemanyagszámláló  /float /az üzemanyag mennyiségét tartja számon</ul>
+	<ul>állomások 		/meghatározza milyen állomásokon kell még végigmenni</ul>
+	<ul>időzítő			/meghatározza mennyi idő van még a játék végéig</ul>
+
+<p>
+Ebben a pontban hivatkozom ezen dokumentum 2-es, 2.1-es, 2.2-es,
+2.3-as, 3.2-es, valamint 3.3-as és az ezeket összefogó 3.5-ös
+alpontjára. Ezek program alrendszereit részletezik, valamint
+tartalmazzák az azokban használt osztályokat. Ezek a következők:</P>
+
+
+<h1>A dokumentáció megtalálható: </h1>
+<p><a href="https://litiengine.com/?fbclid=IwAR2jiPxReKkjiCZGtVW7sjBNsYAKCKCuAmudIXkmW3sIEsIBvEIrOu1t7xM">Litiengine</a></p>
+<p><a href="https://github.com/Feekyy/Randomok---Szoftech">github.com/Feekyy/Randomok---Szoftech</a></p>
+
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="szotar.html"><big><font size="6"> Szótár</big></a></p>
+
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="h2.html"><big><font size="6"> H2</big></a></p>
+
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="h1.html"><big><font size="6"> H1</big></a></p>
+
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="h3.html"><big><font size="6"> H3</big></a></p>
+
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="h5.html"><big><font size="6"> H5</big></a></p>
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="kezdolap.html"><big><font size="6"> Kezdőlapra</big></a></p>
+
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="munkanaplok.html"><big><font size="6"> Választás Munkanaplók között</big></a></p>
+<p  style="margin-bottom: 0cm; text-align: left;"><a href="Felhasználó dokumentum.html"><big><font size="6">Felhasználó dokumentum</big></a></p>
+
+</BODY>
+</HTML>
