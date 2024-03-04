@@ -1,0 +1,3 @@
+ Nev=Petro Balazs,
+ Szak=Mernokinformatikus,
+ Neptunkod=FO71M2 
