@@ -1,0 +1,92 @@
+INSERT INTO `MOTOR` ( `m_id` , `szin` , `ar` , `vegseb` , `tulaj` ) 
+VALUES ('101', 'fekete', '120000', '180', '501'),
+       ('102', 'fehér', '100000', '240', '502'),
+       ('103', 'fekete', '134000', '250', '503'), 
+       ('104', 'szürke', '150000', '120', '504'),
+       ('105', 'barna', '119900', '150', '505'), 
+       ('106', 'fehér', '156000', '200', '506'),
+       ('107', 'fehér', '210000', '200', '507'), 
+       ('108', 'szürke', '198000', '300', '508'),
+       ('109', 'szürke', '143000', '178', '509'), 
+       ('110', 'fekete', '178000', '110', '510');
+INSERT INTO `TULAJDONOS` ( `tulaj_id` , `nev` , `varos` , `utca` , `hsz` , `irsz` ) 
+VALUES ('501', 'Pesta Ferenc', 'Sárospatak', 'szemere', '10', '3800'),
+       ('502', 'Soltész Ferenc', 'Bodroghalom', 'Dobo', '8', '3987'),
+       ('503', 'Trikó János', 'Bodroghalom', 'Petõfi', '54', '3987'), 
+       ('504', 'Stefancsik Katalin', 'Miskolc', 'Kossuth ', '10', '3500'),
+       ('505', 'Vakles György', 'Sártoraljaújhely', 'Martinovics', '121', '3980'), 
+       ('506', 'Suhaj Boglárka', 'Sátoraljaújhely', 'Losárdi', '67', '3980'),
+       ('507', 'Novák Csaba', 'Bodroghalom', 'Petõfi', '60', '3987'),
+       ('508', 'Szemán János', 'Miskolc', 'Bajcsy-zsilinszki', '10', '3500'),
+       ('509', 'Stefancsik Katalin', 'Miskolc', 'Kossuth ', '10', '3500'),
+       ('510', 'Szemán János', 'Miskolc', 'Bajcsy-zsilinszki', '10', '3500');
+INSERT INTO `TULAJDONOS` (`tulaj_id` , `nev` , `varos` , `utca` , `hsz` , `irsz` )
+VALUES ('342', 'Nagy Zsolt', 'Miskolc', 'Árpád', '8', '3534');
+INSERT INTO `ALKATRESZEK` ( `motor` , `dugatyuu` , `bovden` , `kerek` , `fohenger` ) 
+VALUES ( '101', '41565765', 'fék', 'nyári', 'nova'), 
+       ( '102', '1535567', 'fék', 'téli', 'nova'),
+       ( '103', '7543432', 'gáz', 'téli', 'rapid'),  
+       ( '104', '5674322', 'fék', 'nyári', 'nova'),
+       ( '105', '1115296', 'gáz', 'nyári', 'rapid'), 
+       ( '106', '5029746', 'gáz', 'téli', 'nova'),
+       ( '107', '98535671', 'fék', 'téli', 'rapid'), 
+       ( '108', '8025974', 'gáz', 'nyári', 'nova'),
+       ( '109', '25489521', 'fék', 'téli', 'rapid'), 
+       ( '110', '24567892', 'gáz', 'téli', 'nova');
+INSERT INTO `HIRDET` ( `hirdetes` , `motor` , `idopont` ) 
+VALUES ('401', '104', '2022-09-19'), 
+       ('402', '106', '2022-05-25'),
+       ('403', '109', '2022-10-10'), 
+       ('404', '107', '2022-08-30'),
+       ('405', '101', '2022-12-03'), 
+       ('406', '103', '2022-11-16'),
+       ('407', '102', '2022-09-30'),  
+       ('408', '105', '2022-10-23'),
+       ('409', '108', '2022-03-22'), 
+       ('410', '110', '2022-09-02');
+INSERT INTO `VETEL` ( `motor` , `vevo` , `idopont` ) 
+VALUES ( '101', '301', '2022-12-10'), 
+       ( '102', '302', '2022-10-03'),
+       ( '103', '303', '2022-11-28'), 
+       ( '104', '304', '2022-10-09'),
+       ( '105', '305', '2022-11-06'), 
+       ( '106', '306', '2022-07-18'),
+       ( '107', '307', '2022-09-11'), 
+       ( '108', '308', '2022-04-26'),
+       ( '109', '309', '2022-11-13'), 
+       ( '110', '310', '2022-10-03');
+INSERT INTO `VETEL` ( `motor` , `vevo` , `idopont` ) 
+VALUES ( '542', '555', '2022-11-19'); 
+INSERT INTO `HIRDETES` ( `h_id` , `peldanyszam` , `hirdetes tipusa` , `ar` , `cimlapon-e` ) 
+VALUES ('401', '15426', 'hírlap', '3500', 'Igen'), 
+       ('402', '87523', 'ujsag', '4600', 'Igen'),
+       ('403', '11546', 'szórólap', '2780', 'Nem'), 
+       ('404', '95124', 'hírdetõtábla', '6310', 'Nem'),
+       ('405', '75364', 'reklám', '5970', 'Nem'), 
+       ('406', '78953', 'hírlap', '5480', 'Igen'),
+       ('407', '65423', 'hírlap', '6420', 'Nem'), 
+       ('408', '54628', 'szórólap', '3980', 'Nem'),
+       ('409', '55487', 'szórólap', '7030', 'Igen'), 
+       ('410', '69820', 'reklám', '5220', 'Nem');
+INSERT INTO `VEVO` ( `v_id` , `nev` , `varos` , `kor` , `szig.szam` ) 
+VALUES ('301', 'György Klaudia', 'Bodroghalom', '19', '553322KU'), 
+       ('302', 'Ignáth Gábor', 'Bodroghalom', '22', '523122DU'),
+       ('303', 'Balogh Péter', 'Sátoraljaújhely', '24', '553112RE'), 
+       ('304', 'Soltész Béla', 'Bodroghalom', '27', '153322GA'),
+       ('305', 'Gáspár Gábor', 'Sátoraljaújhely', '21', '153122PI'), 
+       ('306', 'Stefán Beáta', 'Sátoraljaújhely', '20', '523312LO'),
+       ('307', 'Jáger Csaba', 'Miskolc', '35', '521122KA'), 
+       ('308', 'Popovics Anetta', 'Miskolc', '23', '553312KI'),
+       ('309', 'Gáspár Gábor', 'Sátoraljaújhely', '21', '553162GE'),
+       ('310', 'Popovics Anetta', 'Miskolc', '23', '549922HU');
+	   INSERT INTO `KEDVEZMENY` ( `kedvezmeny_id` , `nev` , `szazalek` , `ervenyes_idoszak` ) 
+VALUES ('201', 'Ignáth Gábor', '089', '2022-09-19'), 
+       ('102', 'Jáger Csaba', '078', '2022-05-25'),
+       ('303', 'Gáspár Gábor', '011', '2022-10-10'), 
+       ('504', 'Grúz Mária', '040', '2022-08-30'),
+       ('605', 'Sebõk László', '050', '2022-12-03'), 
+       ('206', 'Piros Tivadar', '078', '2022-11-16'),
+       ('107', 'Répási Kornél', '090', '2022-09-30'),  
+       ('308', 'Ulrik Gábor', '080', '2022-10-23'),
+       ('909', 'Gáspár Gábor', '050', '2022-03-22'), 
+       ('910', 'Popovics Anetta', '040', '2022-09-02');
