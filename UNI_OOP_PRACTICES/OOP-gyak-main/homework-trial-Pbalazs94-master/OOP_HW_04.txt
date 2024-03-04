@@ -1,0 +1,30 @@
+
+Házi feladat kiinduló pont (4. hét):
+
+Készítsen Book osztályt és egy Book osztályt 
+használó osztályt (Homework) a homework csomagban 
+az adatrejtés elvének betartásával. 
+Az adattagjait és a metódusait a megadott
+néven nevezze el.
+ 
+A Book osztály adattagjai: 
+title (könyv címe), author (könyv szerzõje),
+yearOfPublication (megjelenés éve), price (ára forintban)
+
+A Book osztály metódusai:
+1. increasePrice: egy paraméterként kapott százalékos értékkel növeli a könyv árát. Pl. input 15 -> a könyv árát 15%-al növeli
+Ha az input 0 vagy negatív, akkor ne változzon a könyv ára.
+
+2. displayInfo: egy  String-be összefûzi a könyv összes adatát és ezt adja vissza. 
+
+3. Setter metódusok az adattagok beállításához, és getter metódusok az adattagok lekérdezéséhez.
+Értékadás elõtt ellenõrzések:
+- a megjelenés éve, ha nem 1950 és 2021 között van, legyen 2021, egyébként a megadott érték
+- az ár legyen 1000 forint 1000-nél kisebb értékekre, egyébként a megadott érték
+
+A Book osztályt használó osztályban (Homework) hozzon 
+létre egy könyvet, majd
+- adjon értéket az adattagjainak,
+- jelenítse meg az adatait,
+- növelje meg az árát 10%-al,
+- jelenítse meg ismét az adatait.

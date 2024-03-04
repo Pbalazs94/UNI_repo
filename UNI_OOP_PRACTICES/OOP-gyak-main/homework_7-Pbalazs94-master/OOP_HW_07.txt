@@ -1,0 +1,36 @@
+7. heti házi feladat:
+
+A homework csomagon belül legyen egy alcsomag product néven.
+Készítsen ebben a csomagban egy Product osztályt, aminek két adattagja van: 
+a termék neve (name) és az ára (price). Legyen egy 2 paraméteres konstruktora, toString és getter, setter metódusai.
+Ügyeljen, hogy ha az ár értékének negatív számot akarunk adni, akkor ne változzon az értéke.
+Legyen egy void decreasePrice(int percent) metódusa, amely a paraméterben megadott százalékos mértékben csökkenti a termék árát.
+
+A homework csomagban lévő Book osztály legyen a Product leszármazottja. Az ár adattagját az ősosztályból örökli. A termék neve "book".
+Egy új adattagja van, a stílus (style, szöveg, pl. "guide", "scifi" stb.). A többi adattagja változatlan.
+Mindkét konstruktora kiegészül az új 'stílus' paraméterrel. A tartalmukat módosítsa ennek megfelelően.
+Módosítsa a toString() metódust, hogy a stílust is tartalmazza a visszaadott string.
+Készítsen a stílus adattaghoz getter, setter metódust.
+Az increasePrice() metódust helyezze át a Product osztályba.
+A decreasePrice() metódust definiálja felül. A stílustól függően a megadott árengedményen felül további kedvezmény van:
+- gyerekkönyvekre ("children") 7%
+- útikönyvekre ("guide") 5%
+Használja fel a metódus örökölt verzióját!
+
+- Írjon osztályszintű metódust (int countStyles(Book[] books)), ami megszámolja hányféle különböző stílusú könyv szerepel a paraméterében megadott Book tömbben.
+- Írjon osztályszintű metódust (void discountBooks(Book[] books, String style)), ami a paraméterben megadott stílusú könyvek árát 10%-al csökkenti a paraméterében megadott Book tömbben.
+- Írjon osztályszintű metódust (int listBooksWithStyle(Book[] books, String style)), ami kiírja a paraméterben megadott stílusú könyvek adatait a paraméterében megadott Book tömbből, és visszaadja a kilistázott könyvek számát. 
+- Írjon osztályszintű metódust (int avgPrice(Book[] books, String style)), ami kiszámítja a paraméterben megadott stílusú könyvek átlagárát a paraméterében megadott Book tömbben. Nullát ad vissza, ha nincs ilyen stílusú könyv.
+A String-ek egyezésének vizsgálatára használja a String osztály metódusát:
+boolean equalsIgnoreCase(String anotherString)
+
+A Book osztály leszármazottja legyen a homework csomagban az EBook osztály.
+Ennek egy új adattagja van: a könyv elektronikus címe (url, String).
+Legyen egy 6 paraméteres konstruktora (szerző, cím, ár, oldalszám, stílus, e-cím), 
+ami felhasználja az ősosztály 5 paraméteres konstruktorát.
+Metódusai: toString, getter, setter.
+
+A mytestpackage csomagban legyen a Homework osztály. Ebben olvasson be n darab E-könyvet (EBook) egy tömbbe. 
+n-et ellenőrzött módon olvassa be (1 és 10 közötti érték) és tesztelje a létrehozott metódusokat.
+
+ 

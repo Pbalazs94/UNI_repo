@@ -1,0 +1,27 @@
+8. heti házi feladat:
+
+Készítsen új csomagban (homework.tax) adóztatható (Taxable) interfészt.
+Adattagja: alapértelmezett adókulcs százalékos értéke (taxPercent, egész, értéke 27).
+Metódusai: az adókulcsot beállító absztrakt metódus (setTax(double)), a double típusú adó mértékét kiszámító absztrakt metódus (getTax()), és a
+double típusú adóval terhelt értéket (bruttó értéket) kiszámító absztrakt metódus (getTaxedValue())
+
+A Product osztály implementálja a Taxable interfészt és végezze el az alábbi módosításokat:
+- új adattag: áfakulcs (taxPercent, egész, értéke az interfészben beállított alapértelmezett érték)
+- új adattag: devizanem (currency, String, alapértelmezett értéke "Ft")
+- Legyen 3 paraméteres konstruktora is (név, ár, áfakulcs). Amennyiben a megadott ár, vagy áfakulcs negatív, legyen az értéke 0 az ár esetén és a Taxable interfészben megadott alapértelmezett érték az áfakulcs esetén!
+- Módosítsa a toString() metódust, tartalmazza a bruttó árat is!
+- Implementálja az interfész absztrakt metódusait. A beállított adó mértéke csak pozitív szám lehet! Ha 0, vagy annál kisebb érték kerülne beállításra legyen helyette a Taxable osztályban megadott alapértelmezett adó az értéke!
+- Írjon a devizanem adattaghoz getter, setter metódust. A devizanem csak Euro és Ft lehet, és devizanem váltáskor át kell számítani az árat (1 Euro = 300 Ft)! Ha ezektől eltérő devizanemet próbálnánk beállítani legyen a devizanem az alapértelmezett!
+- Írjon osztályszintű metódust (void changeCurrency(Product[] products, String targetCurrency)), ami átváltja egy Product tömbben a termékek árát a cél pénznemre (ha egy elem már a cél pénznemben van megadva, akkor ne módosítsa)! Átalakításnál ügyeljen, hogy az értékek kerekítve legyenek és ne levágva!
+- Írjon két termék árát összehasonlító osztályszintű metódust (int comparePrice(Product p1, Product p2)), amely 1-et ad vissza ha az első termék a drágább, 2-t ha a második a drágább és 0-t, ha azonos árúak
+- Írjon absztrakt metódust, amely a termék egységárát fogja kiszámítani (int getUnitPrice())
+
+A Book osztály a Product leszármazottja. Áfája 5%. Az örökölt absztrakt metódus definíciója: bruttó ár / oldalszám. Kerekítésre figyelni!
+Módosítsa a toString() metódust, legyen benne az egységár is!
+- Írjon osztályszintű metódust (String[] selectAuthors(Book[] books, int unitPrice)), ami megállapítja, hogy egy Book tömbben mely szerzőknek van a paraméterben megadott egységárnál (unitPrice) drágább egységárú könyve! Minden ilyen szerzőt csak egyszer írjon a tömbbe!
+- Írjon osztályszintű metódust (int sumGrossPrice(Book[] books)), ami kiszámítja egy Book tömbben a könyvek adóval növelt összárát!
+
+Az EBook osztály definíciója változatlan.
+
+A Homework futtatható osztályban olvassa be n darab könyv (EBook) adatait egy tömbbe. 
+n-et ellenőrzött módon olvassa be (1 és 10 közötti érték). És tesztelje a létrehozott metódusokat.

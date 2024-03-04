@@ -1,0 +1,60 @@
+9. heti házi feladat:
+Figyelem! Az eddigieknek megfelelően ez a feladat is az előző továbbfejlesztése, a tesztek a korábban implementált funkciókat is ugyanúgy tesztelik!
+
+1. -----------------------
+Strukturálja át az eddigi osztályait, a Package Explorerben a Refactor->Move funkciót használva.
+A Taxable interfész maradjon a homework.tax csomagban.
+A Product, Book, EBook osztályok kerüljenek a homework.bookhierarchy csomagba.
+A futtatható osztály maradjon a mytestpackage csomagban.
+Végezze el a szükséges módosításokat.
+
+2. ----------------------------
+A Book osztályban a stílus legyen enum típusú (BookStyle). Ezt a típust beágyazott osztályként valósítsa meg az alábbi 
+konstansokkal: CHILDREN, GUIDE, CRIME, COOK, OTHER.
+A konstruktorban és a stílus beállító metódusban ellenőrizze, hogy a megadott stílus String benne van-e a listában. Ha érvénytelen az input, az alapértelmezett legyen OTHER.
+A getStyle() a stílus String-et adja vissza.
+
+3. -------------------------
+A Book osztályba kerüljön be egy számláló osztályszintű adattag (number), amivel számolja a létrehozott könyv 
+példányokat (azaz a konstruktor eggyel növeli).
+Ez az adattag legyen lekérdezhető (getNumber()).
+Írja felül a finalize() metódust, hogy amikor egy példány megszűnik ez a szám eggyel csökkenjen.
+
+
+4. -----------------------
+Készítsen a homework.shop csomagban másik osztályhierarchiát.
+
+5. -----------------------------
+Ebben a csomagban legyen egy Employee osztály, ami implementálja a Taxable interfészt. 
+Adattagjai: név (name, String), fizetés (salary, egész), és SZJA kulcs ()egész), értéke 15.
+Legyen két paraméteres konstruktora (név, fizetés). 
+Generáljon getter-eket és implementálja az interfészben előírt metódusokat.
+(A setTax() az adókulcsot 15-re állítja, a getTax() az SZJ összegét, a getTaxedValue() az SZJ levonása utáni fizetést adja vissza.)
+Generáljon toString metódust, ami visszadja egy stringbrn a név, fizetés, SZJ összege értékeket.
+
+6. ----------------------------------
+Ugyanebben a csomagban legyen egy BookStore osztály. Adattagjai:
+	- Egy (egyelőre üres) ArrayList<Book> dinamikus tömb (stock), a raktáron levő könyvek tárolására
+	- Egy (egyelőre üres) ArrayList<Taxable> dinamikus tömb (staff) az alkalmazottak tárolására
+Az osztálynak csak default konstruktora van.
+Generáltasson getting metódusokat. (Bár ez most csak a tesztelés miatt kell.)
+Implementálja az alábbi metódusokat:
+	- void addToStock(Book book) - ami egy új könyvet ad hozzá a raktárhoz
+	- void addToStaff(Employee employee) - ami egy új alkalmazottat ad hozzá a megfelelő listához
+	- int listStock() - ami kilistázza a raktáron levő könyveket (visszatérési értéke a kilistázott elemek száma)
+	- int listStaff() - ami kilistázza az alkalmazottakat (visszatérési értéke a kilistázott elemek száma)
+	- int sumVAT() - ami összesíti a raktáron levő könyveket terhelő adót
+	- int sumIncomTax() - ami összesíti az alkalamzottak után fizetendő SZJA-t
+	- void sortByTitle() - ami cím szerint ABC rendbe rendezi a raktárban levő könyveket
+	- void reverseSortByPrice() - ami ár szerint csökkenő sorrendbe rendezi a raktárban levő könyveket
+Segítség:
+	- A dinamikus tömb kezelésére és a Comparator implementálására példákat talál az OOPgyak_10.pdf 2. feladatához kapcsolódva.
+
+7. -------------------
+A homework.runnable csomagban legyen egy a StoreTest futtatható osztály, amely
+	- példányosít egy BookStore objektumot
+	- ezt feltölti néhány könyvvel és alkalmazottal
+	- kilistázza a raktáron levő könyveket
+	- rendezi ABC szerint a könyveket, majd ismét kilistázza
+	- rendezi ár szerint a könyveket, majd ismét kilistázza
+	- kiírja az összesített ÁFA-t és SZJA-t.
